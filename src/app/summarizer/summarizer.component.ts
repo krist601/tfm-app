@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 export class SummarizerComponent {
   inputText: string = '';
   summary: string | null = null;
-  private apiUrl = 'http://51.20.106.3/summarize';
+  private apiUrl = 'http://13.48.138.131/summarize';
 
   constructor(private http: HttpClient) {}
 
