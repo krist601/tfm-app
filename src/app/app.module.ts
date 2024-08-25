@@ -7,11 +7,13 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { SummarizerComponent } from './summarizer/summarizer.component';
+import { CsvReaderComponent } from './csv-reader/csv-reader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SummarizerComponent
+    SummarizerComponent,
+    CsvReaderComponent
   ],
   imports: [
     BrowserModule,
