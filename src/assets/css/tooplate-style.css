@@ -22,6 +22,9 @@ a {
     transition: all 0.3s ease;
     color: #38CCCC;
 }
+p {
+  text-align: justify; /* Justifica el texto dentro de los párrafos */
+}
 
 a:hover { color: #30ADAD; }
 
@@ -50,7 +53,6 @@ h1, h2, p, i, address, .tm-text-white { color: white; }
 .tm-flex-center {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -211,7 +213,37 @@ address { font-style: normal; }
 .tm-mb-40 { margin-bottom: 40px; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-80 { margin-bottom: 80px; }
-.tm-bgcolor-1 { background-color: #F96699; }
-.tm-bgcolor-2 { background-color: #38CCCC; }
-.tm-bgcolor-3 { background-color: #99CCCC; }
+.tm-bgcolor-technology { background-color: #4CAF50; }  /* Verde para tecnología */
+.tm-bgcolor-sports { background-color: #FF9800; }      /* Naranja para deportes */
+.tm-bgcolor-economy { background-color: #38CCCC; }           /* Economía */
+.tm-bgcolor-education { background-color: #FFC107; }   /* Amarillo para educación */
+.tm-bgcolor-conflict { background-color: #FF5722; }    /* Rojo para conflictos */
+.tm-bgcolor-politics { background-color: #4CAF50; }    /* Verde para política */
+.tm-bgcolor-justice { background-color: #3F51B5; }     /* Azul oscuro para justicia */
+.tm-bgcolor-incidents { background-color: #E91E63; }   /* Rosa para incidentes */
+.tm-bgcolor-global { background-color: #00BCD4; }      /* Azul claro para temas globales */
+.tm-bgcolor-3 { background-color: #99CCCC; }           /* Color por defecto */
+     /* Azul claro para temas globales */
+
 .tm-border-rounded { border-radius: 15px; }
+
+.icon-text-container {
+    display: flex;
+    align-items: center;  /* Alinear verticalmente el ícono y el texto */
+    justify-content: flex-start;
+  }
+  
+  .icon-class {
+    margin-right: 10px;   /* Espacio entre el ícono y el texto */
+    font-size: 24px;      /* Ajusta el tamaño del ícono */
+  }
+  
+  h1 {
+    margin: 0;  /* Asegúrate de que el <h1> no tenga margen adicional */
+  }
+
+  .centered-heading {
+    color: #000000; /* Cambia el color a lo que desees */
+    font-size: 3rem; /* Tamaño de fuente, ajusta según tus preferencias */
+    text-align: center; /* Alinea el texto al centro */
+  }
